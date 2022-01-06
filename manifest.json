@@ -1,0 +1,12 @@
+{
+    "name": "Crypto Price Checker",
+    "description": "Check crypto prices",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "main.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.search-btn {
+    text-decoration: none;
+    font-weight: 700;
+    color: purple;
+}
+.fab {
+    font-size: 36px;
+}
+.fa-bitcoin {
+    color: goldenrod;
+}
+.fa-ethereum {
+    color: darkslateblue;
+}
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btc{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#coin {
+    border: none;
+    width: 75px;
+    padding-right: 10px;
+}
+#coin:focus {
+    outline: none;
+}
+.search-field {
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.price-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    font-size: 20px;
+    font-weight: 500;
+}
